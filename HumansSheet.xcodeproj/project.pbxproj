@@ -12,6 +12,7 @@
 		8B8150302376BA5500D0846D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B81502F2376BA5500D0846D /* Person.swift */; };
 		8B8150322376BA7300D0846D /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8150312376BA7300D0846D /* Address.swift */; };
 		8B8150362376BB9A00D0846D /* PersonsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8150352376BB9A00D0846D /* PersonsGenerator.swift */; };
+		8B8150382376C68A00D0846D /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8150372376C68A00D0846D /* FileHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		8B81502F2376BA5500D0846D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		8B8150312376BA7300D0846D /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		8B8150352376BB9A00D0846D /* PersonsGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsGenerator.swift; sourceTree = "<group>"; };
+		8B8150372376C68A00D0846D /* FileHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		8B81502523749C3900D0846D /* HumansSheet */ = {
 			isa = PBXGroup;
 			children = (
+				8B8150392376C69700D0846D /* Helpers */,
 				8B8150342376BB2900D0846D /* Data */,
 				8B8150332376BAEC00D0846D /* Models */,
 				8B8150352376BB9A00D0846D /* PersonsGenerator.swift */,
@@ -88,6 +91,14 @@
 				8B81502D2376B9EC00D0846D /* DataProvider.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		8B8150392376C69700D0846D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8B8150372376C68A00D0846D /* FileHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 				8B81502723749C3900D0846D /* main.swift in Sources */,
 				8B8150322376BA7300D0846D /* Address.swift in Sources */,
 				8B81502E2376B9EC00D0846D /* DataProvider.swift in Sources */,
+				8B8150382376C68A00D0846D /* FileHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

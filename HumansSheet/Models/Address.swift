@@ -19,7 +19,14 @@ struct Address: CustomStringConvertible {
     let flat: Int
     
     var description: String {
-        return "\(postCode)|\(country)|\(region)|\(city)|\(street)|\(house)|\(flat)"
+        return
+            "\(postCode)" + separator +
+            "\(country)" + separator +
+            "\(region)" + separator +
+            "\(city)" + separator +
+            "\(street)" + separator +
+            "\(house)" + separator +
+            "\(flat)"
     }
     
 }

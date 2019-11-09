@@ -36,7 +36,15 @@ struct Person: CustomStringConvertible {
     
     var description: String {
         let formattedBirthDate = dateFormatter.string(from: birthDate)
-        return "\(firstName)|\(lastName)|\(patronymic)|\(age)|\(gender)|\(formattedBirthDate)|\(birthPlace)|\(address)"
+        return
+            "\(firstName)" + separator +
+            "\(lastName)" + separator +
+            "\(patronymic)" + separator +
+            "\(age)" + separator +
+            "\(gender)" + separator +
+            "\(formattedBirthDate)" + separator +
+            "\(birthPlace)" + separator +
+            "\(address)"
     }
     
 }

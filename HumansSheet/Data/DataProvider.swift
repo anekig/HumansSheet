@@ -8,9 +8,27 @@
 
 import Foundation
 
+let separator = ","
+
 struct DataProvider {
     
     typealias Gender = Person.Gender
+    
+    static let headers =
+        "Имя" + separator +
+        "Фамилия" + separator +
+        "Отчество" + separator +
+        "Возраст" + separator +
+        "Пол" + separator +
+        "Дата рождения" + separator +
+        "Место рождения" + separator +
+        "Индекс" + separator +
+        "Страна" + separator +
+        "Область" + separator +
+        "Город" + separator +
+        "Улица" + separator +
+        "Дом" + separator +
+        "Квартира"
     
     static let names: [(name: String, gender: Gender)] = [
         ("Екатерина", .female),
